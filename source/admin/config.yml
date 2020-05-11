@@ -69,14 +69,13 @@ collections:
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
-      - file: data/settings/footer-text.yml
-        label: Footer
-        name: footer
+      - file: "data/settings/footer-text.yml"
+        label: "Footer"
+        name: "footer"
         fields:
-          - label: Footer Text
-            name: text
-            widget: markdown
-            default: '€'
+          - label: "Footer Text"
+            name: "text"
+            widget: "markdown"
       - file: data/settings/units.yml
         label: Units
         name: units
