@@ -74,7 +74,7 @@ collections:
         name: footer
         fields:
           - label: Footer Text
-            name: footer_text
+            name: text
             widget: markdown
             default: '€'
       - file: data/settings/units.yml
