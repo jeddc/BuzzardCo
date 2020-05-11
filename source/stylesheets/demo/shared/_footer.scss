@@ -17,12 +17,20 @@ footer {
 
   .footer-content {
     padding: 30px 15px 60px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
   }
 
   .footer-text {
     @extend %column;
     @extend %col-md-6;
     @extend %col-sm-8;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    line-height: 36px;
   }
 
   .footer-col-2 {
