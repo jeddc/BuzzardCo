@@ -69,6 +69,14 @@ collections:
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
+      - file: data/settings/footer-text.yml
+        label: Footer
+        name: footer
+        fields:
+          - label: Footer Text
+            name: footer_text
+            widget: markdown
+            default: '€'
       - file: data/settings/units.yml
         label: Units
         name: units
