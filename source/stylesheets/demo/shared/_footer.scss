@@ -25,11 +25,25 @@ footer {
     @extend %col-sm-8;
   }
 
-  .social {
+  .footer-col-2 {
     @extend %column;
     @extend %col-md-6;
     @include clearfix;
     margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .footer-logo { 
+    display: inline-block;
+    img {
+      width: auto;
+      height: 350px;
+    }
+  }
+  .social {
+      position: relative;
+      bottom: 87px;
     .icons {
       float: right;
     }
@@ -85,26 +99,6 @@ footer {
   
 @media screen and (max-width: $screen-xs-max) {
   footer {
-    .header-primary {
-      .logo  a {
-        padding-left: 15px
-      }
-      .nav-button {
-        display: none;
-      }
-      .navigation {
-        display: block;
-        position: relative;
-        top: auto;
-        border-top: 2px solid rgba(255, 255, 255, 0.1);
-        li {
-          margin: 15px 0;
-        }
-      }
-      ul {
-        padding-left: 15px;
-      }
-    }
     input {
       width: 60%;
     }
@@ -116,7 +110,15 @@ footer {
       padding: 15px 0 30px;
     }
 
+    .footer-col-2 {
+      display: block;
+    }
+    .footer-logo img {
+      max-width: 100%;
+    }
+
     .social {
+      position: static;
       margin-top: 30px;
       .icons {
         float: none;
