@@ -59,16 +59,6 @@ collections:
   - name: settings
     label: Settings
     files:
-      - file: data/settings/navigation.yml
-        label: Navigation
-        name: navigation
-        fields:
-          - label: Navigation
-            name: nav_items
-            widget: list
-            fields:
-              - {label: Label, name: label, widget: string}
-              - {label: Path, name: path, widget: string}
       - file: "data/settings/footer.yml"
         label: "Footer"
         name: "footer"
