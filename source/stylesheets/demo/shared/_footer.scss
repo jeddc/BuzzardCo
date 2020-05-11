@@ -6,13 +6,6 @@ footer {
     position: relative;
     height: auto;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-
-    .navigation {
-      background-color: transparent;
-      a {
-        color: #fff;
-      }
-    }
   }
 
   .footer-content {
@@ -88,18 +81,6 @@ footer {
     .header-primary {
       .logo  a {
         padding-left: 15px
-      }
-      .nav-button {
-        display: none;
-      }
-      .navigation {
-        display: block;
-        position: relative;
-        top: auto;
-        border-top: 2px solid rgba(255, 255, 255, 0.1);
-        li {
-          margin: 15px 0;
-        }
       }
       ul {
         padding-left: 15px;
