@@ -69,7 +69,7 @@ collections:
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
-      - file: "data/settings/footer-text.yml"
+      - file: "data/settings/footer.yml"
         label: "Footer"
         name: "footer"
         fields:
