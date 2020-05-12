@@ -8,10 +8,10 @@
   align-items: center;
 
   .logo {
+      margin: 0 auto;
     img {
-      width: 360px;
-      height: 90px;
-      padding: 0 30px;
+      width: auto;
+      height: 120px;
     }
   }
 }
