@@ -59,6 +59,13 @@ collections:
   - name: settings
     label: Settings
     files:
+      - file: "data/settings/footer.yml"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - label: "Footer Text"
+            name: "text"
+            widget: "markdown"
       - file: data/settings/units.yml
         label: Units
         name: units
